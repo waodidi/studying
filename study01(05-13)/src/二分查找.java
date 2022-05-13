@@ -22,7 +22,7 @@ public class 二分查找 {
         return -1;
     }
 
-    //法二：左闭右开的
+    //法二：左闭右开
     public static int twoFind02(int []num, int target) {
         int l =0, r = num.length;
         while(l < r ){
